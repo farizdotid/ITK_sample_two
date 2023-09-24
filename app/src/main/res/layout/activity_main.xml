@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_wisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wisata" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_hotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Hotel" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_kuliner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Kuliner" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
